@@ -1,0 +1,41 @@
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  text-align: center;
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.forecast {
+  justify-content: center;
+}
+
+.card {
+  margin: 5px;
+}
+
+.card h4 {
+  color: #fff;
+  padding: 5px 4px;
+  margin: 2px 0px;
+  background-color: #6b9cbd;
+}
+
+.temp-hi {
+  font-weight: bold;
+}
